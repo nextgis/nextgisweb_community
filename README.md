@@ -1,0 +1,1 @@
+See [NextGIS Web Community Edition repository](https://github.com/nextgis/nextgisweb_ce) for details.

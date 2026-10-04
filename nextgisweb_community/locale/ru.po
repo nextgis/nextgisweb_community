@@ -1,0 +1,4 @@
+#: nodepkg/CEAddon.tsx:16
+#, jsrealm
+msgid "More features and direct support from NextGIS"
+msgstr "Больше функций и техническая поддержка от NextGIS"

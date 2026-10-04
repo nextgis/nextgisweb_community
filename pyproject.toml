@@ -1,0 +1,20 @@
+[tool.ruff]
+line-length = 99
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "C", "RUF022"]
+
+[tool.ruff.lint.isort]
+section-order = [
+    "future",
+    "standard-library",
+    "third-party",
+    "nextgisweb-env-lib",
+    "nextgisweb-comp",
+    "first-party",
+    "local-folder",
+]
+
+[tool.ruff.lint.isort.sections]
+"nextgisweb-env-lib" = ["nextgisweb.env", "nextgisweb.lib"]
+"nextgisweb-comp" = ["nextgisweb"]
